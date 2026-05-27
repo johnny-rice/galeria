@@ -260,11 +260,13 @@ export const ExpoImage = () => (
 ### Requirements
 
 - **New Architecture (Fabric)** – Galeria v3.0+ requires the new architecture. This means Expo SDK 54+ or React Native 0.79+.
-- **iOS 16+**
+- **iOS 16.4+**
 
-For iOS 16+ deployment target:
+For iOS 16.4+ deployment target:
 - Bare RN: set it in `ios/Podfile`
 - Expo: set it via [`expo-build-properties`](https://docs.expo.dev/versions/latest/sdk/build-properties/)
+
+Expo SDK 56 requires iOS 16.4+ for `ExpoModulesCore`.
 
 ```bash
 yarn add @nandorojo/galeria
